@@ -64,7 +64,6 @@ angle_label.pack()
 
 # Слайдер для изменения угла
 angle_scale = tk.Scale(root, from_=10, to=60, orient=tk.HORIZONTAL, command=update_angle)
-angle_scale.set(angle)
 angle_scale.pack(fill=tk.X, padx=20)
 
 redraw_button = tk.Button(root, text="Перерисовать", command=draw_tree)
